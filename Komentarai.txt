@@ -1,0 +1,11 @@
+1 LD -> Blinky
+2 LD -> USER_BUTTON_GPIOA0
+3 LD -> TIMER
+4 LD -> PWM
+5 LD -> USER_BUTTON_INTERRUPT
+6 LD -> ADC_CONVERTER
+7 LD -> ADC_CONVERTER_INTERRUPT
+8 LD -> UART (praktiškai neišmėgintas)
+9 LD -> UART_INTERRUPT (praktiškai neišmėgintas)
+
+Jei kartais meta klaidas susijusias su timer'iu, kompiliuojant projekta neįskaityti timer.cpp failo (ProjektoPavadinimas/src/timer.cpp)
